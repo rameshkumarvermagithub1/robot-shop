@@ -23,7 +23,7 @@ RUN if [ -n "$KEY" ]; then \
 
 FROM nginx:1.21.6
 
-EXPOSE 8081
+EXPOSE 8080
 
 ENV CATALOGUE_HOST=catalogue \
     USER_HOST=user \
